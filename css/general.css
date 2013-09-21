@@ -1,0 +1,59 @@
+html {
+  background-color: #ccc;
+
+  font: normal 100%/1.4 Georgia,serif;
+}
+
+body {
+  margin: 2em auto;
+  padding: 1em;
+  width: 25em;
+
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+h1 {
+  margin: 0 0 1rem;
+}
+
+p {
+  margin: 0 0 1.4rem;
+  padding: 0;
+}
+
+.moons {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.moon {
+  clear: both;
+  overflow: hidden;
+  padding-left: 160px;
+}
+
+.moon img {
+  float: left;
+  margin-left: -160px;
+  width: 150px;
+}
+
+.moon dl {
+  margin: 0;
+  padding: 0;
+}
+
+.moon dt {
+  display: inline-block;
+  margin: 0;
+
+  font-style: italic;
+}
+
+.moon dd {
+  display: inline-block;
+  margin: 0;
+}
